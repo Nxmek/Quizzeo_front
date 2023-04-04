@@ -1,0 +1,38 @@
+:root {
+
+
+    --darkColor: #0F1322;
+    --white: #ffffff;
+    --selected: #cfcfcf;
+    --green: #32CB4D;
+    --red: #F80606;
+    --greyBack: #F3F1EF;
+    //
+
+    --light-text: #95a5a6;
+    --orange: #F88863;
+    --admin: #ffc048;
+    --light-orange: #FFE0D5;
+
+    /*btn*/
+    --glow-color: rgb(255, 206, 176);
+    --glow-spread-color: rgba(255, 189, 123, 0.781);
+    --enhanced-glow-color: rgb(255, 233, 206);
+    --btn-color: rgb(97, 85, 44);
+
+
+
+    /* FIREWORK*/
+    --initialSize: 0.5vmin;
+    --finalSize: 45vmin;
+    --particleSize: 0.2vmin;
+    --color1: yellow;
+    --color2: khaki;
+    --color3: white;
+    --color4: lime;
+    --color5: gold;
+    --color6: mediumseagreen;
+    --y: -30vmin;
+    --x: -50%;
+    --initialY: 60vmin;
+}

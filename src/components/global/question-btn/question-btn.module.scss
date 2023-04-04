@@ -1,0 +1,66 @@
+.darkBtn {
+    background: var(--darkColor);
+    border-radius: 5px;
+    color: var(--white);
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    width: 250px;
+
+    &:hover {
+        color: var(--white);
+        background: var(--orange);
+    }
+}
+
+.questionBtn {
+    background-color: var(--darkColor);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: inherit;
+    color: var(--white);
+    border-radius: 12px;
+    transition: all .2s;
+    padding: 1em 2.5em;
+    font-size: 0.8em;
+    font-weight: 600;
+    min-width: 200px;
+    border: none;
+
+    // color: var(--darkColor);
+    // background-color: var(--greyBack);
+}
+
+.questionBtn:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.questionBtn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.questionBtn::after {
+    content: "";
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .4s;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.questionBtn::after {
+    background-color: var(--darkColor);
+}
+
+.questionBtn:hover::after {
+    transform: scaleX(1.2) scaleY(1.4);
+    opacity: 0;
+}

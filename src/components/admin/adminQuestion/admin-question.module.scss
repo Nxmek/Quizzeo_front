@@ -1,0 +1,142 @@
+.contain {
+    position: relative;
+    overflow: scroll;
+    gap: 16px;
+    padding: 24px;
+
+    .up {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+
+
+        .backBtn {
+            text-decoration: none;
+            min-width: 100px;
+        }
+
+        .addBtnContain {
+            min-width: 100px;
+
+            button {
+                width: auto;
+            }
+        }
+
+    }
+
+    ul {
+        padding: 12px;
+        // background-color: var(--admin);
+        flex-direction: column;
+        display: flex;
+        gap: 16px;
+        overflow: scroll;
+
+
+        .questionBlock {
+            padding: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.094);
+            border-radius: 12px;
+
+
+            .upBlock {
+                justify-content: space-between;
+                flex-direction: row;
+                gap: 24px;
+                align-items: center;
+                position: relative;
+
+
+                .ellipsis {
+                    min-height: 24px;
+                    min-width: 24px;
+                    flex-direction: column;
+                    gap: 3px;
+                    background-color: rgba(0, 0, 0, 0.05);
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    // position: relative;
+
+
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.2);
+
+                    }
+
+                    &:active {
+                        transform: translateY(-1px);
+                        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+                    }
+
+
+                }
+
+
+
+                .dot {
+                    min-width: 3px;
+                    min-height: 3px;
+                    max-width: 3px;
+                    max-height: 3px;
+                    border-radius: 24px;
+                    background-color: var(--darkColor);
+                }
+            }
+
+            // .buttons {
+            //     max-height: 32px;
+            //     flex-direction: row;
+            //     gap: 16px;
+
+            //     button {
+            //         display: flex;
+            //         padding: 0;
+            //         border: none;
+            //         justify-content: center;
+            //         align-items: center;
+            //         background-color: transparent;
+
+            //     }
+
+            //     // .modifyBtn {
+            //     //     background-color: var(--green);
+            //     // }
+
+            //     // .deleteBtn {
+            //     //     background-color: var(--red);
+            //     // }
+
+
+            // }
+        }
+
+        .repBlock {
+            flex-direction: row;
+            gap: 16px;
+
+            div {
+                flex-direction: row;
+                gap: 16px;
+            }
+        }
+    }
+}
+
+.modifyBlock {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 22px;
+    padding: 16px;
+    position: fixed;
+    z-index: 10;
+    min-height: 90vh;
+    min-width: 95vw;
+    left: calc(50% - 47.5vw);
+    top: calc(50% - 45vh)
+}

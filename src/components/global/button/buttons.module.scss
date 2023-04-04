@@ -1,0 +1,14 @@
+.darkBtn {
+    background: var(--darkColor);
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 10px;
+    outline: none;
+    width: 250px;
+
+    &:hover {
+        background: var(--orange);
+        color: var(--white);
+    }
+}

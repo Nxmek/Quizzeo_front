@@ -1,0 +1,127 @@
+.container {
+    border-bottom-left-radius: 22px;
+    justify-content: space-between;
+    border-top-left-radius: 22px;
+    background: var(--white);
+    align-items: center;
+    padding: 64px 12px;
+    min-height: 100%;
+    flex: 0.3 0;
+
+    .logo {
+        min-height: 45px;
+        min-width: 112px;
+    }
+
+    .details {
+        flex: 1 0;
+        justify-content: space-around;
+        animation: pop 0.8s ease-out;
+        align-items: center;
+
+        @keyframes pop {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        h4 {
+            font-size: 24px;
+        }
+
+
+        .score {
+            p {
+                background-color: var(--light-orange);
+                flex-direction: column;
+                align-items: center;
+                border-radius: 12px;
+                padding: 16px 24px;
+                font-weight: 600;
+                gap: 4px;
+            }
+        }
+    }
+
+    .button {
+        color: var(--light-text);
+        font-style: italic;
+        font-size: 12px;
+        cursor: pointer;
+        gap: 8px;
+
+
+        a {
+            display: flex;
+            gap: 8px;
+        }
+
+        & :hover {
+            opacity: 0.7;
+        }
+    }
+
+    @media screen and (max-width: 690px) {
+        display: none;
+    }
+
+
+}
+
+.container_mobile {
+    display: none;
+
+
+
+    @media screen and (max-width: 690px) {
+
+        display: flex;
+        padding: 24px;
+        flex: 0.1 0;
+
+        .up {
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+
+            .logo_mobile {
+                min-height: 45px;
+                min-width: 112px;
+            }
+
+            .button_mobile {
+
+                img {
+                    min-height: 24px;
+
+                }
+
+            }
+        }
+
+        .details_mobile {
+            .score_mobile {
+                align-self: center;
+                position: fixed;
+                bottom: 24px;
+                z-index: 5;
+
+                p {
+                    background-color: var(--light-orange);
+                    flex-direction: column;
+                    align-items: center;
+                    border-radius: 12px;
+                    padding: 16px 24px;
+                    font-weight: 600;
+                    gap: 4px;
+                }
+            }
+        }
+
+
+    }
+}

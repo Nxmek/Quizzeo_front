@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L512 0L512 512L0 512L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="view-eye">
+    <path d="M0 0L512 0L512 512L0 512L0 0Z" id="Arrière-plan" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    <path d="M255.66 112C177.72 112 97.77 157.11 34.83 247.33C31.1561 252.654 31.0496 259.667 34.56 265.1C82.92 340.8 161.8 400 255.66 400C348.5 400 429 340.62 477.45 264.75C480.874 259.43 480.874 252.6 477.45 247.28C428.89 172.28 347.8 112 255.66 112L255.66 112Z" id="Forme" fill="none" stroke="#0F1322" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M176 256C176 211.817 211.817 176 256 176C300.183 176 336 211.817 336 256C336 300.183 300.183 336 256 336C211.817 336 176 300.183 176 256Z" id="Cercle" fill="none" fill-rule="evenodd" stroke="#0F1322" stroke-width="32" />
+  </g>
+</svg>

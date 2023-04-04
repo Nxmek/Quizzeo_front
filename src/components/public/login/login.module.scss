@@ -1,0 +1,54 @@
+    .container {
+        position: relative;
+        gap: 64px;
+
+        .logo {
+            caret-color: transparent;
+            min-height: 56px;
+            min-width: 156px;
+        }
+
+
+
+        h1 {
+            text-align: center;
+            margin: 0;
+
+
+        }
+
+        .formContener {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            display: flex;
+            gap: 30px;
+
+            .error {
+                color: var(--red);
+                position: absolute;
+                top: -44px;
+            }
+        }
+
+        p {
+            gap: 16px;
+
+            a {
+                color: var(--darkColor);
+                text-decoration: none;
+                font-style: italic;
+                text-align: center;
+                font-weight: 300;
+
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 520px) {
+        .formContener {
+            padding: 0 24px;
+        }
+    }

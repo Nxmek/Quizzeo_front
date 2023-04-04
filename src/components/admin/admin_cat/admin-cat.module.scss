@@ -1,0 +1,23 @@
+.container {
+    background-color: var(--admin);
+    justify-content: center;
+    position: relative;
+    padding: 0 20%;
+    flex: 1 0;
+
+    .h1_admin {
+        justify-content: center;
+        left: calc(50% - 100px);
+        position: absolute;
+        text-align: center;
+        font-weight: 600;
+        min-width: 200px;
+        font-size: 28px;
+        display: flex;
+        top: 24px;
+    }
+
+    .btnContainer {
+        gap: 48px;
+    }
+}

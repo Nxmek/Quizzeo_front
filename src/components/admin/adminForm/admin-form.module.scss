@@ -1,0 +1,65 @@
+.container {
+    background-color: var(--white);
+    border-radius: 22px;
+    padding: 16px;
+    position: fixed;
+    z-index: 101;
+    min-height: 90vh;
+    min-width: 95vw;
+    max-width: 95vw;
+    left: calc(50% - 47.5vw);
+    top: calc(50% - 45vh);
+
+    @media screen and (max-width: 768px) {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        ;
+    }
+
+    .up {
+        flex-direction: row;
+        align-items: center;
+        min-width: 90%; //
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+                min-width: 300px;
+                text-align: center;
+            }
+        }
+    }
+
+    .bottom {
+        flex: 1 0;
+        justify-content: center;
+    }
+
+
+    .formContainer {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        gap: 16px;
+        min-width: 90%; //
+
+        .responseContainer {
+            flex-direction: row;
+            gap: 8px;
+
+            .radioContainer {
+                flex-direction: row;
+                align-items: center;
+                gap: 8px;
+
+                input[type=radio]:checked {
+                    background-color: red;
+
+                }
+
+                // #response1 {
+                //     padding: 16px;
+                // }
+            }
+        }
+    }
+}

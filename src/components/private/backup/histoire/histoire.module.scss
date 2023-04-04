@@ -1,0 +1,91 @@
+.container {
+    padding: 24px;
+    // flex: 0.6 0;
+    flex: 1 0;
+    position: relative;
+    background-color: var(--orange);
+    border-radius: 22px;
+
+    .empty {
+        min-height: 55.42px;
+        min-width: 200px;
+    }
+
+    .questionNumber {
+        top: -16px;
+        font-size: 16px;
+        font-weight: 600;
+        min-width: 210px;
+        padding: 8px 16px;
+        text-align: center;
+        position: absolute;
+        border-radius: 12px;
+        left: calc(50% - (210px/2));
+        background-color: var(--white);
+        -webkit-box-shadow: 0.5px -6px 20.5px 7px #dddddd;
+        -moz-box-shadow: 0.5px -6px 20.5px 7px #dddddd;
+        box-shadow: 0.5px -6px 20.5px 7px #dddddd;
+    }
+
+    h1 {
+        padding: 24px;
+        // background-color: rebeccapurple;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .responses_contain {
+        flex: 1 0;
+        justify-content: center;
+        gap: 48px;
+        align-items: center;
+
+        .responses {
+            display: flex;
+            gap: 48px;
+            font-size: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 850px;
+            min-width: 600px;
+
+            .selected {
+                background-color: var(--selected);
+                -webkit-box-shadow: 3px 3px 10px 3px rgba(51, 51, 51, 0.47);
+                -moz-box-shadow: 3px 3px 10px 3px rgba(51, 51, 51, 0.47);
+                box-shadow: 3px 3px 10px 3px rgba(51, 51, 51, 0.47);
+            }
+
+            li {
+                white-space: nowrap;
+                border-radius: 12px;
+                background-color: var(--greyBack);
+                padding: 13px;
+                text-align: center;
+                flex-basis: 35%;
+                font-weight: 600;
+                max-width: 300px;
+
+                &:hover {
+                    -webkit-box-shadow: 3px 3px 10px 3px rgba(51, 51, 51, 0.47);
+                    -moz-box-shadow: 3px 3px 10px 3px rgba(51, 51, 51, 0.47);
+                    box-shadow: 3px 3px 10px 3px rgba(51, 51, 51, 0.47);
+                }
+
+            }
+
+            .good_one {
+                background-color: green;
+            }
+
+            .wrong_one {
+                background-color: red;
+            }
+        }
+    }
+
+    .next_container {
+        align-items: center;
+    }
+}

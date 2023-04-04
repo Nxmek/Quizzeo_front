@@ -1,0 +1,14 @@
+.section {
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 690px) {
+    .section {
+        justify-content: flex-start;
+
+        flex-direction: column;
+
+    }
+
+}

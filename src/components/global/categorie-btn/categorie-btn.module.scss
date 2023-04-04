@@ -1,0 +1,50 @@
+.link {
+    flex: 1 0;
+    min-width: 40%;
+    text-decoration: none;
+    color: var(--darkColor);
+    text-align: center;
+
+    .container {
+        background-color: var(--white);
+        border-radius: 22px;
+        position: relative;
+        padding: 24px 16px;
+        // max-width: 300px;
+        // min-width: 300px;
+
+        &:hover {
+            background-color: var(--light-orange);
+        }
+
+        &:active {
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            font-size: 18px;
+            // font-weight: 400;
+        }
+
+
+        .logo {
+            position: absolute;
+            min-height: 56px;
+            min-width: 56px;
+            left: -20px;
+            top: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .link {
+        min-width: 60%;
+
+        .container {
+            padding: 16px;
+
+        }
+    }
+
+}

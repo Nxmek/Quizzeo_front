@@ -1,0 +1,33 @@
+.container {
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.094);
+    background-color: #00000002;
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    gap: 8px;
+    padding: 4px;
+    z-index: 100;
+    cursor: pointer;
+
+
+    // flex-direction: row;
+    .action {
+        border-radius: 8px;
+        flex-direction: row;
+        gap: 8px;
+        padding: 4px 12px;
+        align-items: center;
+
+        &:hover {
+            background-color: #00000010;
+        }
+
+        &:active {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+        }
+
+    }
+}

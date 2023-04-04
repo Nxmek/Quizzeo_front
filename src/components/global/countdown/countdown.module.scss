@@ -1,0 +1,40 @@
+.contain {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+
+    .countdown {
+        text-align: center;
+        max-width: 120px;
+        min-width: 120px;
+        font-weight: 600;
+        font-size: 24px;
+
+    }
+
+    .fullBar {
+        background-color: var(--light-orange);
+        height: 10px;
+        width: 100px;
+
+        .timeLeft {
+            background-color: var(--orange);
+            height: 100%;
+            width: 80%;
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 690px) {
+    .contain {
+        .countdown_txt {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.container {
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+    background: var(--greyBack);
+    justify-content: center;
+    min-height: 100%;
+    max-height: 100%;
+
+    padding: 32px;
+    flex: 1 0;
+
+
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        // border-top-left-radius: 22px;
+        // border-bottom-left-radius: 22px;
+        background-color: transparent;
+        min-height: initial;
+        border-radius: 0px;
+        padding: 0;
+        overflow: scroll;
+    }
+
+}
