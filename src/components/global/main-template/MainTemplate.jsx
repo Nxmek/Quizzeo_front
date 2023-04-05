@@ -1,4 +1,4 @@
-import MainContent from "@/components/global/main-content/MainContent";
+import MainContent from "../main-content/MainContent";
 import NavBar from "../nav-bar/NavBar";
 import mc from "./main-template.module.scss";
 const MainTemplate = ({ children }) => {

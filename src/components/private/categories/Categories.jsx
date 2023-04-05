@@ -1,9 +1,9 @@
-import CategorieBtn from "@/components/global/categorie-btn/CategorieBtn";
+import CategorieBtn from "../../global/categorie-btn/CategorieBtn";
 import mc from "./categories.module.scss";
-import histoireImg from "@/img/categeories/histoire.svg";
-import sportImg from "@/img/categeories/sport.svg";
-import animalImg from "@/img/categeories/animal.svg";
-import cinemaImg from "@/img/categeories/cinema.svg";
+import histoireImg from "../../../img/categeories/histoire.svg";
+import sportImg from "../../../img/categeories/sport.svg";
+import animalImg from "../../../img/categeories/animal.svg";
+import cinemaImg from "../../../img/categeories/cinema.svg";
 
 const Categories = () => {
   return (

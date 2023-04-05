@@ -1,9 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import {
-  readCatThunk,
-  readHistoryThunk,
-} from "../../../api/questions/read-questions-by-cat.api";
+import { readCatThunk } from "../../../api/questions/read-questions-by-cat.api";
 import Questions from "../Questions/questions";
 
 const Histoire = () => {

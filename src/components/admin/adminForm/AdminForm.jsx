@@ -5,7 +5,6 @@ import Button from "../../global/button/Button";
 import BackBtn from "../../global/back-btn/BackBtn";
 import AdminInput from "../../global/adminInput/AdminInput";
 import { createThunk } from "../../../api/questions/create.apI";
-// import { readCatThunkAdmin } from "../../../../api/questions/read-questions-by-cat.api";
 
 const AdminForm = ({ category }) => {
   const dispatch = useDispatch();

@@ -1,5 +1,3 @@
-import histoireImg from "@/img/categeories/histoire.svg";
-import MainTemplate from "@/components/global/main-template/MainTemplate";
 import mc from "./categorie-btn.module.scss";
 import { Link } from "react-router-dom";
 const CategorieBtn = ({ name, src, linkTo }) => {

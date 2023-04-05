@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Categories from "@/components/private/categories/Categories";
+import Categories from "../private/categories/Categories";
 import MainTemplate from "../global/main-template/MainTemplate";
 import Histoire from "./histoire/Histoire";
 import Sport from "./sport/Sport";

@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import mc from "./settings-modale.module.scss";
 import modify from "../../../img/icon/modify.svg";
 import deleteSvg from "../../../img/icon/delete.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { readIdThunkAdmin } from "../../../api/questions/read-questions-by-id.api";
 import AdminUpdateForm from "../../admin/adminUpdateForm/AdminUpdateForm";
-import { readCatThunkAdmin } from "../../../api/questions/read-questions-by-cat.api";
 import AdminDeleteModale from "../../admin/admin-delete-modale/AdminDeleteModale";
 const SettingsModale = ({ c, category }) => {
   const dispatch = useDispatch();

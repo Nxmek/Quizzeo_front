@@ -1,9 +1,9 @@
 import React from "react";
 import mc from "./admin-cat.module.scss";
-import histoireImg from "@/img/categeories/histoire.svg";
-import sportImg from "@/img/categeories/sport.svg";
-import animalImg from "@/img/categeories/animal.svg";
-import cinemaImg from "@/img/categeories/cinema.svg";
+import histoireImg from "../../../img/categeories/histoire.svg";
+import sportImg from "../../../img/categeories/sport.svg";
+import animalImg from "../../..//img/categeories/animal.svg";
+import cinemaImg from "../../../img/categeories/cinema.svg";
 import CategorieBtn from "../../global/categorie-btn/CategorieBtn";
 
 const AdminCat = () => {

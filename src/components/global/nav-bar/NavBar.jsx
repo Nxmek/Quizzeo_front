@@ -1,10 +1,9 @@
 import mc from "./nav-bar.module.scss";
-import Button from "../button/Button";
 import logoutImg from "../../../img/icon/logout.svg";
 import logo_orange from "../../../img/logo_orange.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import CountDown from "../countdown/Countdown";
 
 const NavBar = () => {

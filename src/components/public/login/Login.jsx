@@ -1,8 +1,8 @@
 import mc from "./login.module.scss";
-import logo from "@/img/logo_orange.svg";
-import Input from "@/components/global/Input/Input";
-import PasswordInput from "@/components/global/password_Input/PasswordInput";
-import Buttons from "@/components/global/button/Button";
+import logo from "../../../img/logo_orange.svg";
+import Input from "../../global/Input/Input";
+import PasswordInput from "../../global/password_Input/PasswordInput";
+import Buttons from "../../global/button/Button";
 
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";

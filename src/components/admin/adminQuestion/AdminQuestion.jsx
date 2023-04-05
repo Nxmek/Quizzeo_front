@@ -6,12 +6,7 @@ import AdminForm from "../../admin/adminForm/AdminForm";
 import Buttons from "../../global/button/Button";
 import BackBtn from "../../global/back-btn/BackBtn";
 import { Link } from "react-router-dom";
-import AdminDeleteModale from "../admin-delete-modale/AdminDeleteModale";
 import SettingsModale from "../../global/settings-modale/SettingsModale";
-import AdminUpdateForm from "../adminUpdateForm/AdminUpdateForm";
-import { readIdThunkAdmin } from "../../../api/questions/read-questions-by-id.api";
-import deleteBtn from "../../../img/icon/delete.svg";
-import modify from "../../../img/icon/modify.svg";
 const AdminQuestion = ({ category }) => {
   const dispatch = useDispatch();
   const {

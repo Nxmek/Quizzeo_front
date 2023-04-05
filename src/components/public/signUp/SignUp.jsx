@@ -1,9 +1,8 @@
 import mc from "./sign-up.module.scss";
-import Buttons from "@/components/global/button/Button";
-import Input from "@/components/global/Input/Input";
-import PasswordInput from "@/components/global/password_Input/PasswordInput";
-import logo from "@/img/logo_orange.svg";
-
+import Buttons from "../../global/button/Button";
+import Input from "../../global/Input/Input";
+import PasswordInput from "../../global/password_Input/PasswordInput";
+import logo from "../../../img/logo_orange.svg";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { signUpThunk } from "../../../api/user/sign-up.api";

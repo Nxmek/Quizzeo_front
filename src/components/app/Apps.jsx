@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import mc from "./app.module.scss";
-import { getItem } from "@/utils/storage.utils";
-import PublicRouter from "@/components/public/PublicRouter";
-import PrivateRouter from "@/components/private/PrivateRouter";
+import { getItem } from "../../utils/storage.utils";
+import PublicRouter from "../public/PublicRouter";
+import PrivateRouter from "../private/PrivateRouter";
 import { useDispatch, useSelector } from "react-redux";
 import { readUserThunk } from "../../api/user/read.api";
 import AdminRouter from "../admin/admin-router";

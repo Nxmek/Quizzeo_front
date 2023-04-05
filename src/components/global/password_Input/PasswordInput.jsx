@@ -1,6 +1,6 @@
 import mc from "./password-input.module.scss";
-import hide_eye from "@/img/icon/hide-eye.svg";
-import view_eye from "@/img/icon/view-eye.svg";
+import hide_eye from "../../../img/icon/hide-eye.svg";
+import view_eye from "../../../img/icon/view-eye.svg";
 import { useState } from "react";
 
 const PasswordInput = ({ spanName, value, onChange, nameClass }) => {
