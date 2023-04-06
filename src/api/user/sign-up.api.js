@@ -10,10 +10,11 @@ const signUp = async (form) => {
   };
 
   try {
-    const response = await fetch(
-      `https://quizzeo-back.vercel.app/users/sign-up`,
-      config
-    );
+    // const response = await fetch(
+    //   `https://quizzeo-back.vercel.app/users/sign-up`,
+    //   config
+    // );
+    const response = await fetch(`http://localhost:1960/users/sign-up`, config);
     const result = await response.json();
     status = response.status;
     // return !result || status >= 400 ? null : result;
