@@ -13,7 +13,7 @@ const readIdUser = async () => {
 
   try {
     const response = await fetch(
-      `https://quizzeo-back.vercel.app/api/users/readById`,
+      `https://quizzeo-back-jmpar.ondigitalocean.app/users/readById`,
       config
     );
     const result = await response.json();
