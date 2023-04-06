@@ -12,7 +12,7 @@ const signIn = async (form) => {
 
   try {
     const response = await fetch(
-      `https://quizzeo-back.vercel.app/users/sign-in`,
+      `https://quizzeo-back.vercel.app/api/users/sign-in`,
       config
     );
     const result = await response.json();

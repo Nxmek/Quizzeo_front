@@ -11,7 +11,7 @@ const signUp = async (form) => {
 
   try {
     const response = await fetch(
-      `https://quizzeo-back.vercel.app/users/sign-up`,
+      `https://quizzeo-back.vercel.app/api/users/sign-up`,
       config
     );
     const result = await response.json();
