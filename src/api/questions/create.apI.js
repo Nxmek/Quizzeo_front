@@ -16,7 +16,7 @@ const create = async (form) => {
   console.log(form);
   try {
     const response = await fetch(
-      `http://localhost:1960/question/create`,
+      `https://quizzeo-back-jmpar.ondigitalocean.app/question/create`,
       config
     );
     const result = await response.json();

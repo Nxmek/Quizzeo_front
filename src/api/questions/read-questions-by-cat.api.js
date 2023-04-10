@@ -13,7 +13,7 @@ const readCatQuestions = async (category) => {
 
   try {
     const response = await fetch(
-      `http://localhost:1960/question/read/${category}`,
+      `https://quizzeo-back-jmpar.ondigitalocean.app/question/read/${category}`,
       config
     );
     const result = await response.json();
