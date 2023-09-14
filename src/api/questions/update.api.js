@@ -16,7 +16,7 @@ const update = async (form, questionId) => {
   console.log(questionId);
   try {
     const response = await fetch(
-      `https://quizzeo-back-jmpar.ondigitalocean.app/question/update/${questionId}`,
+      `http://localhost:1960/question/update/${questionId}`,
       config
     );
     const result = await response.json();

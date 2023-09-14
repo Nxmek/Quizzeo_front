@@ -12,7 +12,7 @@ const deleteRequest = async (token, questionId) => {
 
   try {
     const response = await fetch(
-      `https://quizzeo-back-jmpar.ondigitalocean.app/question/delete/${questionId}`,
+      `http://localhost:1960/question/delete/${questionId}`,
       config
     );
     const result = await response.json();

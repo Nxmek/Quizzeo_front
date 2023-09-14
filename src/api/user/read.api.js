@@ -13,7 +13,7 @@ const readIdUser = async () => {
 
   try {
     const response = await fetch(
-      `https://quizzeo-back-jmpar.ondigitalocean.app/users/readById`,
+      `http://localhost:1960/users/readById`,
       config
     );
     const result = await response.json();
